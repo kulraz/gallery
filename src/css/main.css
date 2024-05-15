@@ -1,0 +1,67 @@
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'font', sans-serif;
+}
+
+p, picture, figure, h1, h2, h3, h4, h5, h6  {
+    margin: 0;
+    padding: 0;
+}
+
+.list-reset {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.btn-reset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    cursor: pointer;
+}
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+:focus {outline: none;}
+::-moz-focus-outer, ::-moz-focus-inner {
+    border: 0px;
+    padding: 0;
+}
+a:focus,
+a:active,
+button:focus {
+    outline: 0;
+    outline-color: transparent;
+    outline-width: 0;
+    outline-style: none;
+    box-shadow: 0 0 0 0 rgba(0,123,255,0);
+}
+input, textarea,input:active, textarea:active {outline:none; border: none;}
+input[type="checkbox"]:focus,
+input[type="radio"]:focus {
+    visibility: hidden;
+}
+

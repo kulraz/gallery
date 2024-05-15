@@ -1,0 +1,26 @@
+.photo-gallery {
+    max-width: 1300px;
+}
+
+.photo-gallery__title {
+    color: teal;
+    margin-top: 15px;
+}
+
+.photo-gallery__add-btn {
+    margin: 15px 0;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 3px solid teal;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: teal;
+}
+
+.photo-gallery__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-auto-columns: 1fr;
+}
